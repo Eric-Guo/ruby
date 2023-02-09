@@ -65,7 +65,7 @@ jobs:
           path: src/.downloaded-cache
           key: downloaded-cache
       - name: Set up Ruby & MSYS2
-        uses: ruby/setup-ruby@ee26e27437bde475b19a6bf8cb73c9fa658876a2 # v1.134.0
+        uses: ruby/setup-ruby@77fe3b48b7ef9e181c0ecc9f05478ba7818b1b5c # v1.136.0
         with:
           ruby-version: ${{ matrix.base_ruby }}
       - name: set env
