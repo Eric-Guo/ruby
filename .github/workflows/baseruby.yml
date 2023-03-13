@@ -59,7 +59,7 @@ jobs:
       - run: make incs
       - run: make all
       - run: make test
-      - uses: ruby/action-slack@36bda26f63ca8a3787504418657edbbc1a3f5361 # v3.1.0
+      - uses: ruby/action-slack@0bd85c72233cdbb6a0fe01d37aaeff1d21b5fce1 # v3.2.1
         with:
           payload: |
             {
